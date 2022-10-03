@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xsi:schemaLocation="http://www.isotc211.org/2005/gmd ../schemas/iso19139fra/gmd/gmd.xsd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:map="urn:brgm:mapping" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco">
+	<geosoft xmlns="http://www.geosoft.com/schema/geo">
+		<dataset version="1">
+			<lineage>
+				<process name="gridmask.gx" displaystring="GRIDMASK" user="Iago Sousa Lima Costa" version="Version 2022.1 (20220602.26)" date="2022-09-14" time="09:40:10">
+					<parameter name="GRIDMASK::GRDIN" value=".\SRTM.GRD(GRD)" type="string"/>
+					<parameter name="GRIDMASK::GRDOUT" value=".\SRTM_SB-22-Y-B-VI.grd(GRD)" type="string"/>
+					<parameter name="GRIDMASK::MASKOPT" value="OUTSIDE" type="string"/>
+					<parameter name="GRIDMASK::POLY" value=".\SB-22-Y-B-VI.ply" type="string"/>
+					<parameter name="GRIDMASK::RESIZE" value="YES" type="string"/>
+					<source name="d:\CPRM\projetos 2022\minicurso simpósio brasileiro de geofísica\oasis project\__gmasktmp.grd" type="GRID">
+						<lineage>
+							<process name="gridmask.gx" displaystring="GRIDMASK" user="Iago Sousa Lima Costa" version="Version 2022.1 (20220602.26)" date="2022-09-14" time="09:40:10">
+								<parameter name="GRIDMASK::GRDIN" value=".\SRTM.GRD(GRD)" type="string"/>
+								<parameter name="GRIDMASK::GRDOUT" value=".\SRTM_SB-22-Y-B-VI.grd(GRD)" type="string"/>
+								<parameter name="GRIDMASK::MASKOPT" value="OUTSIDE" type="string"/>
+								<parameter name="GRIDMASK::POLY" value=".\SB-22-Y-B-VI.ply" type="string"/>
+								<parameter name="GRIDMASK::RESIZE" value="YES" type="string"/>
+								<source name="d:\CPRM\projetos 2022\minicurso simpósio brasileiro de geofísica\oasis project\SRTM.GRD" type="GRID"/>
+							</process>
+						</lineage>
+					</source>
+					<source name="d:\CPRM\projetos 2022\minicurso simpósio brasileiro de geofísica\oasis project\SRTM.GRD" type="GRID">
+						<lineage>
+							<process name="Geosoft.EIMS.GXNet.dll(Geosoft.EIMS.GX.Seeker.SeekerMainForm;Run)" user="Iago Sousa Lima Costa" version="Version 2022.1 (20220602.26)" date="2022-09-13" time="14:17:10">
+								<parameter name="FIND_DATA::CoordinateSystem" value="GEOGCS[&quot;GCS_WGS_1984&quot;,DATUM[&quot;D_WGS_1984&quot;,SPHEROID[&quot;WGS_1984&quot;,6378137.0,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433],AUTHORITY[&quot;EPSG&quot;,4326]]" type="string"/>
+								<parameter name="FIND_DATA::File" value=".\SRTM.GRD(GRD)" type="string"/>
+								<parameter name="FIND_DATA::MaxX" value="-49.4423529484649" type="string"/>
+								<parameter name="FIND_DATA::MaxY" value="-4.94653015913915" type="string"/>
+								<parameter name="FIND_DATA::MinX" value="-52.5565156229117" type="string"/>
+								<parameter name="FIND_DATA::MinY" value="-7.05469539053827" type="string"/>
+								<parameter name="FIND_DATA::Resolution" value="0.00113122171945701" type="string"/>
+								<parameter name="FIND_DATA::Title" value="SRTM1 South America North" type="string"/>
+								<parameter name="FIND_DATA::Type" value="Grid" type="string"/>
+								<parameter name="FIND_DATA::URL" value="https://public.dap.seequent.com" type="string"/>
+							</process>
+						</lineage>
+					</source>
+				</process>
+			</lineage>
+			<title>SRTM_SB-22-Y-B-VI</title>
+			<file_format>Geosoft Grid</file_format>
+			<project_name>d:\cprm\projetos 2022\minicurso simpósio brasileiro de geofísica\oasis project\minicurso_ix_simbgf.gpf</project_name>
+			<data_created_by>Iago Sousa Lima Costa</data_created_by>
+			<data_creation_date>2022-09-14</data_creation_date>
+			<metadata_created_by>Iago Sousa Lima Costa</metadata_created_by>
+			<metadata_creation_date>2022-09-14</metadata_creation_date>
+			<georeference>
+				<dataextents>
+					<extent2d minx="-51.500902777777775" miny="-7.0020138888888912" maxx="-51.002013888888882" maxy="-6.5031250000000025"/>
+				</dataextents>
+				<projection type="GEOGRAPHIC" name="WGS 84" ellipsoid="WGS 84" datum="WGS 84" wellknown_epsg="4326" datumtrf="WGS 84" datumtrf_description="[WGS 84] World" radius="6378137" eccentricity="0.0818191908426215">
+					<shift x="0" y="0" z="0"/>
+					<units name="dega" unit_scale="1"/>
+				</projection>
+			</georeference>
+		</dataset>
+	</geosoft>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:processStep xlink:type="Geosoft Process" xlink:title="gridmask.gx">
+						<gmd:LI_ProcessStep>
+							<gmd:dateTime>
+								<gco:DateTime>2022-09-14T09:40:10</gco:DateTime>
+							</gmd:dateTime>
+							<gmd:processor>
+								<gmd:CI_ResponsibleParty>
+									<gmd:individualName>
+										<gco:CharacterString>Iago Sousa Lima Costa</gco:CharacterString>
+									</gmd:individualName>
+								</gmd:CI_ResponsibleParty>
+							</gmd:processor>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDMASK::GRDIN" xlink:title=".\SRTM.GRD(GRD)">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDMASK::GRDOUT" xlink:title=".\SRTM_SB-22-Y-B-VI.grd(GRD)">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDMASK::MASKOPT" xlink:title="OUTSIDE">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDMASK::POLY" xlink:title=".\SB-22-Y-B-VI.ply">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDMASK::RESIZE" xlink:title="YES">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Source" xlink:role="GRID" xlink:title="d:\CPRM\projetos 2022\minicurso simpósio brasileiro de geofísica\oasis project\__gmasktmp.grd">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Source" xlink:role="GRID" xlink:title="d:\CPRM\projetos 2022\minicurso simpósio brasileiro de geofísica\oasis project\SRTM.GRD">
+								<gmd:LI_Source/>
+							</gmd:source>
+						</gmd:LI_ProcessStep>
+					</gmd:processStep>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>SRTM_SB-22-Y-B-VI</gco:CharacterString>
+					</gmd:title>
+					<gmd:collectiveTitle>
+						<gco:CharacterString>d:\cprm\projetos 2022\minicurso simpósio brasileiro de geofísica\oasis project\minicurso_ix_simbgf.gpf</gco:CharacterString>
+					</gmd:collectiveTitle>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2022-9-14</gco:Date>
+							</gmd:date>
+						</gmd:CI_Date>
+					</gmd:date>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:resourceFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>Geosoft Grid</gco:CharacterString>
+					</gmd:name>
+				</gmd:MD_Format>
+			</gmd:resourceFormat>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+						<gco:CharacterString>Iago Sousa Lima Costa</gco:CharacterString>
+					</gmd:individualName>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-51.500902777777775</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>-51.002013888888882</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-7.0020138888888912</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>-6.5031250000000025</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>Iago Sousa Lima Costa</gco:CharacterString>
+			</gmd:individualName>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2022-9-14</gco:Date>
+	</gmd:dateStamp>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:codeSpace>
+						<gco:CharacterString>ESRI</gco:CharacterString>
+					</gmd:codeSpace>
+					<gmd:code>
+						<gco:CharacterString>GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433],AUTHORITY["EPSG",4326]]</gco:CharacterString>
+					</gmd:code>
+					<gmd:version>
+						<gco:CharacterString>1</gco:CharacterString>
+					</gmd:version>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+</gmd:MD_Metadata>
