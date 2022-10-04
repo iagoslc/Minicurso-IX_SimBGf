@@ -1,3 +1,0 @@
-<?xml version="1.0"?>
-<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
-<metadata xml:lang="pt"><Esri><CreaDate>20220913</CreaDate><CreaTime>15142200</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process Name="RepairGeometry_2" ToolSource="C:\Arquivos de programas\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RepairGeometry" Date="20070510" Time="162131">RepairGeometry D:\Rai\Estágio\Projetos_Arc\malha_br_100000.shp D:\Rai\Estágio\Projetos_Arc\malha_br_100000.shp</Process></lineage></DataProperties><ArcGISFormat>1.0</ArcGISFormat></Esri></metadata>
